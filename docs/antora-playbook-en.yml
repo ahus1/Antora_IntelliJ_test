@@ -40,7 +40,6 @@ asciidoc:
     idprefix: ''
     idseparator: '-'
     page-pagination: ''
-    # См. RTFM-897
     attribute-missing: warn@
 # Ссылка на архив со стилями для сайта
 ui:
