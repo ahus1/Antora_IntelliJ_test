@@ -1,1 +1,1 @@
-Test project for IntelliJ preview test
+Test project for IntelliJ preview
