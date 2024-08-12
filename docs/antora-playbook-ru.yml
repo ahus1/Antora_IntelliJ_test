@@ -1,10 +1,8 @@
 site:
   # Заголовок сайта, используется в хлебных крошках и ещё в некоторых местах меню
-  title: Engee
+  title: Test
   # Ссылка на стартовую страницу, которая открывается по умолчанию при заходе на сайт с докой (на неё должна вести ссылка из всех источников)
   start_page: helpcenter:ROOT:index.adoc
-  # Ссылка на сайт, где будет лежать дока. Нужна для формирования карты сайта и 404 страница, ни на что другое не влияет
-  url: https://engee.com
 urls:
   # Что отображается в урле, без этого параметра там будет номер версии из файла antora.yml
     latest_version_segment: stable
@@ -38,7 +36,6 @@ asciidoc:
     idprefix: ''
     idseparator: '-'
     page-pagination: ''
-    # См. RTFM-897
     attribute-missing: warn@
 # Ссылка на архив со стилями для сайта
 ui:
@@ -47,15 +44,3 @@ ui:
 # Ссылка на папку, в которой будет создана папка с собранным сайтом
 output:
   dir: ./doc_pages/ru
-# Установка расширения с поиском
-antora:
-  extensions:
-    - require: ./extensions/json-indexes-builder.extension.js
-    - require: ./extensions/json-nav-builder.extension.js
-    - require: ./extensions/json-anchor-builder.extension.js
-    - require: ./extensions/json-breadcrumbs-builder.extension.js
-    - require: ./extensions/json-page-metadata.extension.js
-#    - require: ./extensions/json-all-pages-urls.extension.js
-    - require: ./extensions/fix-images-src.extension.js
-    - require: ./extensions/json-main-page-data.extension.js
-    - require: ./extensions/json-courses-page-data.extension.js
