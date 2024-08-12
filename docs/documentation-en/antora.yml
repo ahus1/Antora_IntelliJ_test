@@ -1,1 +1,6 @@
+name: helpcenter
+title: Test
+version: 24.7-en
+nav:
+- modules/ROOT/nav.adoc
 
