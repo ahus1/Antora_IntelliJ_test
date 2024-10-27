@@ -28,7 +28,7 @@ asciidoc:
   extensions:
    - '@djencks/asciidoctor-mathjax'
   attributes:
-    language: ru
+    language: ru@
     404-page-title: Ошибка 404
     page-component-order: '!home, !ROOT, *, asciidoclet, reveal.js-converter, pdf-converter, epub3-converter, diagram-extension, about'
     extensions: '@djencks/asciidoctor-mathjax'
